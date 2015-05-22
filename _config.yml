@@ -1,30 +1,30 @@
-# Dependencies
-markdown:         redcarpet
-highlighter:      pygments
-
 # Permalinks
-permalink:        pretty
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
 relative_permalinks: true
 
-# Adds read more feature
-excerpt_separator: "<!-- more -->"
-
 # Setup
-title:            Thoughts
-tagline:          'UX Design'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://blog.jeya.io
-baseurl:          /
+title:               Poole
+tagline:             The Jekyll Butler
+url:                 http://getpoole.com
+paginate:            1
+baseurl:             ""
 
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
 author:
-  name:           'Jeya Karthika'
-  url:            https://twitter.com/ItsJkTweeting
-
-paginate:         5
+  name:              Mark Otto
+  url:               https://twitter.com/mdo
+  email:             markdotto@gmail.com
 
 # Custom vars
-version:          2.1.0
-
+version:             1.0.0
 github:
-  repo:           https://github.com/jeyakarthika/blog
-
+  repo:              https://github.com/poole/poole
